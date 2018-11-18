@@ -1,0 +1,95 @@
+.top {
+	display: flex;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	background: #F8B195;
+	border-radius: 8px;
+}
+
+.title {
+	padding-top: 80px; 
+	width: 70%;
+	background: #C06C84;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+}
+
+.form {
+	clear: both;
+	text-align: right;
+	line-height: 40px;
+}
+
+.middle {
+	display: flex;
+	background: #6C5B7B;
+	padding: 10px;
+	margin: 1px 0px 0px 0px;
+	border-radius: 10px;
+
+}
+
+.middleLeft {
+	width: 30%;
+}
+
+.middleForm {
+	width: 40%;
+	float: left;
+}
+
+.middleRight {
+	width: 30%;
+}
+
+.butt {
+	margin-top: 170px;
+	font-size: 16px;
+	border-radius: 10px;
+	background: #2F9599;
+}
+
+.down {
+	display: flex;
+	margin: 1px 0px 0px 0px;
+	background: #547980;
+	height: 135px;
+	border-radius: 10px;
+}
+
+.face {
+	padding: 5px 0px 0px 5px; 
+}
+
+.inst {
+	padding: 5px 0px 0px 5px;
+}
+
+.down img {
+	width: 100px;
+	height: 100px;
+}
+
+label {
+	padding-right: 50px;
+	float: left;
+}
+
+input {
+	line-height: 25px;
+	border-radius: 5px;
+	margin-right: 80px;
+}
+
+input[type=text] {
+    border: 1px solid #ccc; /* Исходная рамка вокруг поля */ 
+   }
+
+input[type=text]:focus {
+    border: 3px solid black; /* Рамка при получении фокуса */
+   }
